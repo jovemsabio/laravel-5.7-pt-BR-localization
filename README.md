@@ -19,7 +19,7 @@
 3. Para tradução dos textos nas páginas (views) de login. (Opcional).
 
 Crie o arquivo `resources/lang/pt-BR.json` e adicione o seguinte conteúdo:
-  ```
+  ```JSON
   {
     "E-Mail Address" : "Endereço de e-mail",
     "Password" : "Senha",
@@ -39,7 +39,7 @@ Para traduzí-la, edite o arquivo `resources/views/home.blade.php` e troque o te
   Dashboard
   ```
   por este
-  ```
+  ```PHP
   {{__('Dashboard')}}
   ```
 ## Localização para outras versões do Laravel
